@@ -1,4 +1,12 @@
-If Repository is pulled, please install the following and use a Python env to encapsulate the projects needs. 
+Relevant Research AI 
+
+The goal is to create an application where it can summarize a research paper levaraging open source models from the Hugging Face Hub. The idea is to use LangChain and detect which kind of research paper it is and use the specific model for that topic (ex. if it's a paper about medicine, then use the medical model to summarize the paper, analyze and draw out all the main points). 
+
+For summarization: 
+Base Model: Pegasus-x-base (State-of-the-art for Long Context Summarization) - google/pegasus-x-base
+Fined Tunes Open-Source: https://huggingface.co/UNIST-Eunchan/Research-Paper-Summarization-Pegasus-x-ArXiv
+
+If repository is pulled, please install the following and use a Python env to encapsulate the projects needs. 
 
 - Clone repository
 - Open locally
@@ -15,4 +23,8 @@ If Repository is pulled, please install the following and use a Python env to en
 Things to know before running: 
 - Once you run the main.py file, it will locally download the model from the Hugging Face Hub and load the model to your computers local memory (if you have GPU it will use it, else if will use your RAM)
 
-  
+
+
+
+
+Disclamer: The projects goal is for learning purposes, it is up to your own descretion if pulled. 
